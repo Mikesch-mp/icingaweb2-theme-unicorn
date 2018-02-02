@@ -28,6 +28,10 @@ icingacli module enable unicorn
 ![Icinga Web 2 theme Unicorn](https://github.com/Mikesch-mp/icingaweb2-theme-unicorn/raw/master/screenshots/unicorn-theme-set_theme_global.png "Unicorn theme global")
 ![Icinga Web 2 theme Unicorn](https://github.com/Mikesch-mp/icingaweb2-theme-unicorn/raw/master/screenshots/unicorn-theme-set_theme_user.png "Unicorn theme user")
 
+## FAQ
+
+if you enable or disable the theme you have to logout/login or do an hard refresh in your browser to enable the sparkling mouse effect.
+
 ## Contribution
 
 Feel free to add your ideas and examples here as well. Just add or modify a theme.
