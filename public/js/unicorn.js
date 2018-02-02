@@ -30,15 +30,15 @@
 
     if (ns){
 	for (i = 0; i < n; i++)
-		document.write('<layer name="dots'+i+'" top=0 left=0 width='+i/2+' height='+i/2+' bgcolor=#ff0000></layer>');
+		document.write('<layer name="dots'+i+'" top=0 left=0 width='+i/2+' height='+i/2+' bgcolor=#ff0000 style="pointer-events:none"></layer>');
     }
 
     if (ie)
-	document.write('<div id="con" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+	document.write('<div id="con" style="position:absolute;top:0px;left:0px;pointer-events:none"><div style="position:relative">');
 
     if (ie||n6){
 	for (i = 0; i < n; i++)
-		document.write('<div id="dots'+i+'" style="position:absolute;top:0px;left:0px;width:'+i/2+'px;height:'+i/2+'px;background:#ff0000;font-size:'+i/2+'"></div>');
+		document.write('<div id="dots'+i+'" style="position:absolute;top:0px;left:0px;width:'+i/2+'px;height:'+i/2+'px;background:#ff0000;font-size:'+i/2+';pointer-events:none"></div>');
     }
     
     if (ie)
@@ -246,6 +246,7 @@
 	div.style.height=height+"px";
 	div.style.width=width+"px";
 	div.style.overflow="hidden";
+	div.style["pointer-events"]="none";
 	return (div);
     }
 
