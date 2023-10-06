@@ -1,4 +1,4 @@
 Name: Icinga Web 2 Theme Unicorn
 Version: 1.0.2
-Depends: monitoring
+Depends: monitoring, icingadb
 Description: Unicorn Theme
